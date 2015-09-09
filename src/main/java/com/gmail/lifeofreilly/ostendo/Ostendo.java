@@ -27,7 +27,7 @@ class Ostendo {
 
             String leftAlignFormat = "| %-60s | %-30s |%n";
             System.out.format("+--------------------------------------------------------------+--------------------------+%n");
-            System.out.printf("| Hex Value                                                    | UTF-8 Value                 |%n");
+            System.out.printf("| Hex Value                                                    | UTF-8 Value              |%n");
             System.out.format("+--------------------------------------------------------------+--------------------------+%n");
 
             while (true) {
