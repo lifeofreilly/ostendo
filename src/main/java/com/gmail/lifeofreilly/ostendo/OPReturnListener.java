@@ -78,6 +78,12 @@ class OPReturnListener implements PeerEventListener {
         return null;
     }
 
+    /**
+     * Extracts the message content from the output string
+     *
+     * @param transactionOutput the output string
+     * @return the extracted message
+     */
     public static String extractMessage(String transactionOutput) {
         return transactionOutput.substring(transactionOutput.indexOf("[") + 1, transactionOutput.indexOf("]"));
     }
