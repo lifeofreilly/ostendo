@@ -1,11 +1,11 @@
 Ostendo
 =======
-Listens for OP_RETURN messages on the Bitcoin blockchain and prints them to standard output. All OP_RETURN messages are displayed, including messages contained within unconfirmed transactions. The application is written in Java and leverages the bitcoinj library. This application leverages the main production bitcoin network. If you wish to use testnet instead, this can be configured in PeerListener.java.
+Listens for OP_RETURN messages on the production bitcoin blockchain. The application is written in Java and leverages the bitcoinj library.
 
 Prerequisites:
 -------------------------
 
-* JDK 1.6 or higher
+* JDK 1.8 or higher
 * Maven
 * For additional dependency information refer to pom.xml
 
@@ -47,8 +47,8 @@ Execute all unit tests:
 Limitations:
 -------------------------
 
-* Some messages may be obsfucated, this application simply converts the hex value to a UTF-8 string.
-* Levereges a MemoryBlockStore for storing blockchain information.
+* Some messages may be obfuscated, this application simply converts the hex value to a UTF-8 string.
+* Leverages a MemoryBlockStore for storing blockchain information.
 
 License
 -------------------------
