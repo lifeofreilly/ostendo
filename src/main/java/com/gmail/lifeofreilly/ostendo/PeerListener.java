@@ -38,5 +38,7 @@ class PeerListener {
         peerGroup.addPeerDiscovery(new DnsDiscovery(NET_PARAMS));
         peerGroup.addEventListener(peerEventListener);
         peerGroup.startAsync();
+
+
     }
 }

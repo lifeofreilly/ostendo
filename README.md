@@ -30,13 +30,11 @@ Example Output:
 -------------------------
 
 ```
-+--------------------------------------------+---------------------+     
-| Hex Value                                  | UTF-8 Value         |   
-+--------------------------------------------+---------------------+   
-| 69643b6a65666662657a6f732e6964             | id;jeffbezos.id     |   
-| 69643b6c61727279706167652e6964             | id;larrypage.id     |   
-| 69643b6a6f686e656c746f6e2e6964             | id;johnelton.id     |   
-| 69643b6a6f6e726f6d65726f2e6964             | id;jonromero.id     |   
+| Hex Value | UTF-8 Value |
+| 69643b6a65666662657a6f732e6964 | id;jeffbezos.id |
+| 69643b6c61727279706167652e6964 | id;larrypage.id |
+| 69643b6a6f686e656c746f6e2e6964 | id;johnelton.id |
+| 69643b6a6f6e726f6d65726f2e6964 | id;jonromero.id |
 | 6a134153435249424553504f4f4c30315049454345 | ASCRIBESPOOL01PIECE |
 ```
 

@@ -4,6 +4,9 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+
 /**
  * Unit test for MessageQueue
  */
@@ -29,8 +32,8 @@ public class MessageQueueTest
      * Add and remove message from MessageQueue
      */
     public void testMessageQueue() throws Exception {
-        MessageQueue messageQueue = new MessageQueue();
-        messageQueue.addMessage("6a14215477656e74792062797465206469676573742e");
-        assertEquals(messageQueue.takeMessage(), "6a14215477656e74792062797465206469676573742e");
+        final BlockingQueue<String> messageQueue = new LinkedBlockingQueue<String>();
+        messageQueue.add("6a14215477656e74792062797465206469676573742e");
+        assertEquals(messageQueue.take(), "6a14215477656e74792062797465206469676573742e");
     }
 }
